@@ -1,0 +1,90 @@
+*{
+  background-color: aqua;
+}
+nav{
+  height:60px;
+  text-align: center;
+  font-weight: bold;
+  font-size:40px;
+}
+h1{
+  background-color:rgb(247, 57, 89);
+  margin-top: -8px;
+}
+img{
+  width:70px;
+  height: 70px;
+  margin-top: 30px;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  margin-left: 100px;
+  gap:350px;
+  font-weight: bolder;
+}
+button{
+  border-radius: 5px;
+  border: 2px solid red;
+  font-weight: bolder;
+  background-color: red;
+  color: aqua;
+}
+button:hover{
+  box-shadow:2px 2px rgb(241, 147, 147);
+  color:black;
+}
+
+/* Add this CSS to your stylesheet */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+  text-align: center;
+  width: 300px;
+  height: 150px;
+}
+
+.popup-content h2 {
+  margin-top: 0;
+}
+
+.popup-content button {
+  margin-top: 10px;
+  border: none;
+  background-color: #ff0000;
+  color: aqua;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background-color: #0056b3;
+}
+#gameover{
+  background-color: aqua;
+  border-radius: 7px;
+}
+#game-over{
+  background-color: aqua;
+  border-radius: 7px;
+  height:30px;
+  font-weight: bold;
+  width:150px;
+  margin-left: 70px;
+}
